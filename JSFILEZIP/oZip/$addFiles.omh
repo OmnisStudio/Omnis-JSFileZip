@@ -1,0 +1,9 @@
+Do lStrPath.$createobject(pZipPath)
+
+Calculate lTotal as pFileList.$linecount
+For lNum from 1 to lTotal step 1
+	Do pFileList.[lNum].$loadcols(lFileName,lFilePath)
+	Do lStrName.$createobject(lFileName)
+	ReadBinFile (lFilePath,lBinFile)
+	Do iZipRef.$addfile(lStrPath,lStrName,lBinFile)
+End For

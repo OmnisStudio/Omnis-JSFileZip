@@ -1,0 +1,2 @@
+Calculate iZipRef as $extobjects.JavaObjs Library.$objects.//JavaObjs\ClassPath\zipdemo\zipdemo//.$newref()
+Do iZipRef.$createobject()

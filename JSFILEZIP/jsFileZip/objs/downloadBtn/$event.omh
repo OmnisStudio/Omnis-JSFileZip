@@ -1,0 +1,10 @@
+On evClick
+	Do FileOps.$filelist(kFileOpsIncludeFiles,iFolderPath,kFileOpsInfoName+kFileOpsInfoFullName,"*.jpg",lErrStr) Returns lFileList
+	
+	Do lFileList.$redefine(lFileName,iFolderPath)
+	
+	Calculate iZipToDownload as con(sys(115),iZipFileName)
+	
+	;  create the zip file
+	Do lZipObj.$newZip(iZipToDownload,lFileList)
+	Do method sendZip

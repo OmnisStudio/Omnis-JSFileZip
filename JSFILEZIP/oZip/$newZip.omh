@@ -1,0 +1,4 @@
+If FileOps.$doesfileexist(pZipPath)
+	Do FileOps.$deletefile(pZipPath)
+End If
+Do $cinst.$addFiles(pZipPath,pFileList)
