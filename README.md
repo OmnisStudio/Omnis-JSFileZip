@@ -1,5 +1,5 @@
 # Omnis-JSFileZip
-Library shows how you can create a zip file of images and download it to your browser
+Library shows how you can create a zip file of images and download it to your browser using the JS File Control.
 
 Requires Omnis Studio 8.1.2 or above and Java to be installed.
 
