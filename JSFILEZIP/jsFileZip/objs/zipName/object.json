@@ -58,7 +58,7 @@
 	"layout": {
 		"310": {
 			"left": 12,
-			"top": 204,
+			"top": 218,
 			"width": 185,
 			"height": 25,
 			"align": "kLeftJst",
@@ -68,7 +68,7 @@
 			"visible": true
 		},
 		"600": {
-			"left": 92,
+			"left": 90,
 			"top": 155,
 			"width": 185,
 			"height": 25,
